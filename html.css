@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<!--head-->
+<head>
+  <meta charset="utf-8">
+  <title>Project1</title>
+  <link rel="stylesheet" href="styles.css">
+
+<!--heading and description-->
+    <h1 id="title">Hillview Enclave</h1>
+    <p id="description">Collection for the month of September 2022</p>
+</head>
+
+<!--body-->
+<body>
+
+<!--form-->
+  <form id="survey-form">
+
+  <ol type="I">
+  <li>
+
+<!--fieldset1--> 
+<fieldset>
+ <label id="number of flats">Number of flats: <input type="number" id="number of flats" placeholder="Enter number" min="300" max="300" required></label>
+ <label id="number of blocks">Number of blocks: <input type="number" id="number of blocks" placeholder="Enter number" min="4" max="4" required></label>
+
+<!--dropdown1-->
+<label for="dropdown">Block: 
+<select id="dropdown" name="dropdown">
+
+<option value="">Select block</option>
+<option value="1">A</option>
+<option value="2">B</option>
+<option value="3">C</option>
+<option value="4">D</option>
+
+</select>
+</label>
+
+<label id="Owner name">Name of the owner (Name in full): <input type="text" id="owner name" placeholder="Enter name"  required></label>
+<label id="flat no.">Flat number: <input type="number" id="flat no." placeholder="Enter number" max="514" required></label>
+
+</fieldset>
+  </li>
+
+<li>
+<!--fieldset2-->
+<fieldset>
+<label for="Subscription">Monthly Subscription: </label>
+<label id="Subscription">Amount: <input type="number" id="Subscription" name="Subscription" placeholder="Enter Amount" required></label>
+<label id="Subscription">Status: </label>
+<label for="Subscription"><input type="checkbox" id="Subscription">Paid</label>
+<label for="Subscription"><input type="checkbox" id="Subscription">Did not pay</label>
+</fieldset>
+</li>
+
+<li>
+<!--fieldset4-->
+<fieldset>
+<label id="vacant flats">Number of vacant flats: <input type="number" id="vacant flats" placeholder="Enter number" required></label>
+<label id="Subscription">Subscription Amount: <input type="number" id="Subscription" name="Subscription" placeholder="Enter Amount" required></label>
+<label id="Subscription">Status: </label>
+<label for="Subscription"><input type="checkbox" id="Subscription">Paid</label>
+<label for="Subscription"><input type="checkbox" id="Subscription">Did not pay</label>
+</li>
+</fieldset>
+
+<li>
+<!--fieldset5-->
+<fieldset>
+  <label id="unsold flats">Number of unsold flats: <input type="number" id="unsold flats" placeholder="Enter number" required></label>
+  <label id="Subscription">Subscription Amount: <input type="number" id="Subscription" name="Subscription" placeholder="Enter Amount" required></label>
+  <label id="Subscription">Status: </label>
+  <label for="Subscription"><input type="checkbox" id="Subscription">Paid</label>
+  <label for="Subscription"><input type="checkbox" id="Subscription">Did not pay</label>
+</fieldset>
+</li>
+
+<li>
+  <!--fieldset6-->
+  <fieldset>
+  <label id="collection">Total Collection: <input type="number" id="collection" placeholder="Enter number" required></label>
+</fieldset>
+</li>
+
+<li>
+  <!--fieldset7-->
+  <fieldset>
+    <label for="expenses">Expenses: </label>
+    <label id="expenses">Security (For 6 persons): <input type="number" id="expenses" placeholder="Enter number" required></label>
+    <label id="expenses">House Keeping (For 9 persons): <input type="number" id="expenses" placeholder="Enter number" required></label>
+    <label id="expenses">Gardening and Watering (For 2 persons): <input type="number" id="expenses" placeholder="Enter number" required></label>
+    <label id="expenses">Power Bill (Common for all): <input type="number" id="expenses" placeholder="Enter number" required></label>
+    <label id="expenses">Garbage Collection: <input type="number" id="expenses" placeholder="Enter number" required></label>
+    <label id="expenses">Total Expenses: <input type="number" id="expenses" placeholder="Enter number" required></label>
+  </fieldset>
+</li>
+
+<li>
+<!--fieldset8-->
+<fieldset>
+<label for="suggestions">What would you like to see improved?</label>
+
+<!--textarea-->
+  <textarea id="suggestions" name="suggestions" rows="3" cols="20" placeholder="Enter your comment here"></textarea>
+</label>
+</fieldset>
+</li>
+</ol>
+
+<!--fieldset9-->
+<fieldset>
+<!--submit-->
+<input type="submit" id="submit" value="Submit">
+</fieldset>
+
+</form>
+
+      </body>
+  </html>
